@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/firebase"
+        android:id="@+id/image"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="125dp"/>
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="250dp"
+            android:text="Firebase"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/matrial_design"
+        android:shadowColor="@color/black"
+        android:text="login"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/matrial_design"
+        android:shadowColor="@color/black"
+        android:text="signup"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+    <EditText
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext1"
+        android:hint="EMAIL"
+        android:drawablePadding="10dp"
+        android:background="@drawable/custom_design"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/icons_mail"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="40dp" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/custom_design"
+        android:drawableStart="@drawable/icon_lock"
+        android:drawablePadding="10dp"
+        android:elevation="2dp"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+</RelativeLayout>
+</ScrollView>
